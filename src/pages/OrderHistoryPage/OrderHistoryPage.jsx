@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import * as ordersAPI from '../../utilities/orders-api';
 import './OrderHistoryPage.css';
 import Logo from '../../components/Logo/Logo';
-import UserLogOut from '../../components/UserLogOut/UserLogOut';
+// import UserLogOut from '../../components/UserLogOut/UserLogOut';
 import OrderDetail from '../../components/OrderDetail/OrderDetail';
 import OrderList from '../../components/OrderList/OrderList';
 

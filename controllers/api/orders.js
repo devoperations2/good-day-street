@@ -5,7 +5,7 @@ module.exports = {
   cart,
   addToCart,
   setItemQtyInCart,
-  checkout,
+  // checkout,
   forUser
 };
 
