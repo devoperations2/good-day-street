@@ -1,15 +1,15 @@
 .Logo {
     content: url(https://i.imgur.com/X8tZjio.png);
-    height: 20vmin;
-    width: 20vmin;
+    height: 40vmin;
+    width: 40vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 20%;
+    border-radius: 50%;
     background-color: var(--white);
-    color: var(--tan-1);
-    font-size: 2.7vmin;
+    color: var(--black-1);
+    
     border: .6vmin solid var(--tan-2);
-    padding: 2vmin; 
+    margin: 10vmin; 
   }
