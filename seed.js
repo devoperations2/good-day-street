@@ -9,9 +9,9 @@ const Item = require('./models/item');
 
   await Category.deleteMany({});
   const categories = await Category.create([
-    {name: 't-shirts', sortOrder: 10},
+    {name: 'T-Shirts', sortOrder: 10},
     {name: 'Crop-Top', sortOrder: 20},
-    {name: 'sweatshirts', sortOrder: 30},
+    {name: 'Sweatshirts', sortOrder: 30},
     
     
   ]);
@@ -20,7 +20,7 @@ const Item = require('./models/item');
   const items = await Item.create([
     {name: 'Champagne Diet', image: ['https://i.imgur.com/aKgoa2L.jpg', 'https://i.imgur.com/BJLpWc0.jpg' ], category: categories[0], price: 44.95},
     {name: 'Save Water Drink Champagne', image: 'https://i.imgur.com/S3BgU14.jpg', category: categories[0], price: 44.95},
-    {name: 'Logo Back', image: 'https://i.imgur.com/7wDigCC.jpg', category: categories[0], price: 44.95},
+    {name: 'Logo Back', image: 'https://i.imgur.com/zfJOgtP.jpg', category: categories[0], price: 44.95},
     {name: 'Logo Front', image: 'https://i.imgur.com/h8oDNZW.jpg', category: categories[0], price: 44.95},
     {name: 'Beverly Hills Club', image: 'https://i.imgur.com/7wDigCC.jpg', category: categories[0], price: 44.95},
     {name: 'Classic Bitch', image: 'https://i.imgur.com/xbEG1lf.jpg', category: categories[0], price: 44.95},

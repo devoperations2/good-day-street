@@ -6,6 +6,8 @@ import NewOrderPage from '../NewOrderPage/NewOrderPage';
 import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
 import NavBar from '../../components/NavBar/NavBar';
 import './App.css';
+import HomePage from '../HomePage/HomePage';
+
 
 function App() {
   const [user, setUser] = useState(getUser());
@@ -19,6 +21,7 @@ function App() {
             {/* Route components in here */}
             <Route path="/orders/new" element={<NewOrderPage user={user} setUser={setUser} />} />
             <Route path="/orders" element={<OrderHistoryPage user={user} setUser={setUser} />} />
+            <Route path="/" element={<HomePage user={user} setUser={setUser} />} />
           </Routes>
         </>
         :
