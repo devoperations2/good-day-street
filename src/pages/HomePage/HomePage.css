@@ -1,8 +1,8 @@
 .homepage {
 
     content: url(https://i.imgur.com/X8tZjio.png);
-    height: 10vmin;
-    width: 10vmin;
+    height: 100vmin;
+    width: 100vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;

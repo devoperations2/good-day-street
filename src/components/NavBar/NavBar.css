@@ -1,4 +1,9 @@
 .nav {
-
-border: 1vh;    
+    width: 100%;
+    display: grid;
+    grid-template-columns: 18.35vw 5.75vw 5.25vw;
+    padding: 1vmin 0;
+    color: var(--text-light);
+    border-top: .1vmin solid var(--tan-3);
+    
 }
