@@ -2,7 +2,7 @@ export default function HomePage(){
     return(
         
         <div className="homepage">
-        <div> Good Day Street</div>
+        <h1> Good Day Street</h1>
         
       </div>
           
