@@ -1,7 +1,7 @@
 .Logo {
     content: url(https://i.imgur.com/X8tZjio.png);
-    height: 10vmin;
-    width: 10vmin;
+    height: 25vmin;
+    width: 25vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;

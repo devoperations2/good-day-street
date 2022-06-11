@@ -10,8 +10,17 @@
   .NewOrderPage aside {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:;
+    align-items: top;
     margin: 3vmin 2vmin;
   }
-  
+
+  .navside {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: bottom;
+    margin: 3vmin 2vmin;
+  } 

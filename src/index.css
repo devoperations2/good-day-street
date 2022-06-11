@@ -1,14 +1,14 @@
 :root {
   --white: #fcfcfc;
-  --tan-1: #38d189;
+  --tan-1: #ff529d;
   --tan-2: #9ce5c7;
-  --tan-3: #66cedc;
-  --tan-4: #a1d8f7;
-  --orange: #fa0000;
-  --text-light: #968c84;
+  --tan-3: #ffffff;
+  --tan-4: #ffffff;
+  --orange: #000000;
+  --text-light: #000000;
   --text-dark: #615954;
 }
-/* 
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -20,7 +20,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--tan-4);
+  background-image: url(https://w.wallha.com/ws/10/HWOdBCun.jpg);
   padding: 2vmin;
   height: 100vh;
 }
@@ -149,4 +149,4 @@ button:disabled, form:invalid button[type="submit"] {
 button[type="submit"] {
   grid-column: span 2;
   margin: 1vmin 0 0;
-} */
+}
