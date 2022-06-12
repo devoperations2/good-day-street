@@ -1,19 +1,33 @@
 .homepage {
 
    
-    height: 200vmin;
-    width: 200vmin;
+    height: 100vmin;
+    width: 100vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    margin: auto;
      
 }
-h1 {
-
-
-
+.homepage img {
+    height: 766px;
+    filter: invert(1);
+    /* box-shadow: rgb(0 0 0 / 40%) 0px 2px 4px, rgb(0 0 0 / 30%) 0px 7px 13px -3px, rgb(0 0 0 / 20%) 0px -3px 0px inset; */
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    
 }
 
+.homepage h1 {
+    font-size: 100px;
+    color: #ffe85e;
+}
+.homepage img:hover {
+    filter: none;
+
+}
 
